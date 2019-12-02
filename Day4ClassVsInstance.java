@@ -2,10 +2,10 @@ package com.hackerrank.ThirtyDaysOfCode;
 
 import java.util.Scanner;
 
-class Person {
+class PersonOld {
     private int age;
 
-    Person(int initialAge) {
+    PersonOld(int initialAge) {
         if(initialAge >=0) {
             this.age = initialAge;
         } else {
@@ -41,7 +41,7 @@ public class Day4ClassVsInstance {
         int T = sc.nextInt();
         for (int i = 0; i < T; i++) {
             int age = sc.nextInt();
-            Person p = new Person(age);
+            PersonOld p = new PersonOld(age);
             p.amIOld();
             for (int j = 0; j < 3; j++) {
                 p.yearPasses();
