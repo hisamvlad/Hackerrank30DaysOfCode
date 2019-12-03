@@ -26,7 +26,7 @@ class Difference {
 
 
             // method to find maximum absolute difference
-            // 0) loops through elements array and picks pairs of integers
+           
             for (int i = 0; i < elements.length; i++) {
              max =   (max > elements[i]) ? (max) : (max = elements[i]);
             }
