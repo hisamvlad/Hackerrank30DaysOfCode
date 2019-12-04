@@ -26,7 +26,7 @@ class Difference {
 
 
             // method to find maximum absolute difference
-           
+
             for (int i = 0; i < elements.length; i++) {
              max =   (max > elements[i]) ? (max) : (max = elements[i]);
             }
